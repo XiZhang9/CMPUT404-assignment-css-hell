@@ -1,0 +1,116 @@
+body {
+	background-color: blue;
+}
+
+div.welcome {
+	position: relative;
+	width: 100%;
+	height: 10em;
+	z-index: -1;
+}
+
+div.name {
+	position: absolute;
+  	font-family: cursive;
+  	margin-top: 3%;
+  	margin-left: 10%;
+  	color: black;
+  	font-size: 1.5em;
+  	text-shadow: 0.5em 0.5em 0.4em black;
+}
+
+div.sidebar {
+	float: right;
+	position: relative;
+	width: 20%;
+	background-color: yellow;
+}
+
+div.photo {
+	position: relative;
+	z-index: 1;
+}
+
+div.me_text {
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 20%;
+	color: #DAA520;
+	z-index: 2;
+}
+
+div.content {
+	background-color: #00008B  ;
+	overflow: hidden;
+	position: relative;
+	width: 80%;
+}
+
+
+
+div.basic_info{
+	position: relative;
+	float: left;
+	overflow: auto;
+	position: relative;
+}
+
+div.text1 {
+	float: left;
+	width: 40%;
+	position: relative;
+	margin-left: 10%;
+}
+
+div.text1 h3 {
+	text-indent: 23%;
+}
+
+div.pic {
+	overflow: auto;
+	float: right;
+	margin-right: 20%;
+	position: relative;
+	width: 20%;
+}
+
+div.edu_hist, div.tech_skills, div.other_skills, div.work_exp {
+	position: relative;
+	margin-left: 10%;
+}
+	
+h3 {
+	color: violet;
+	position: relative;
+	left: 20%;
+  	font-family:cursive;
+  	text-transform: uppercase;
+  	text-shadow: 0.1em 0.1em 0.5em brown;
+}
+
+div.content li {
+	line-height: 2em;
+	font-family: serif;
+	color: #DAA520;
+	font-style: italic;
+}
+
+p {
+	font-size: 1em;
+	text-shadow: 0em 0em 0.1em lightpink;
+}
+
+div.sidebar li a{
+	line-height: 2em;
+	font-size: 1.2em;
+	font-family: cursive;
+	color: black;
+	text-shadow: 0.1em 0.1em 0.01em white;
+}
+
+div.sidebar li a:hover {
+	line-height: 2.1em;
+	font-size: 1.3em;
+	background-color: whitesmoke;
+	color: brown;
+}

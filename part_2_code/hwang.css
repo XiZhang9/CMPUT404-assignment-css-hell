@@ -1,0 +1,122 @@
+body {
+	/*img reference: http://www.vectorhq.com/wp-content/uploads/2014/03/bricks.jpg*/
+	/*background-image: url("img/bricks.jpg");*/
+	background-color: #e0ebeb;
+}
+
+.welcome{
+	height: 80pt;
+	background-color: #85adad;
+	border-style: solid;
+	border-width: 10pt 10pt 10pt 10pt;
+	border-color: #1f3d7a;
+
+
+
+}
+
+h1{
+	text-align: center;
+	font-size: 30pt;
+	padding-top: 5pt;
+
+}
+
+
+
+
+div.sidebar {
+	float: left;
+	position: relative;
+	width: 15%;
+}
+
+div.photo {
+	position: relative;
+	z-index: -1;
+}
+
+div.me_text {
+	position: absolute;
+	margin-top: 55%;
+	margin-left: 15%;
+	color: whitesmoke;
+	font-family: cursive;
+}
+
+div.content {
+	overflow: hidden;
+	position: relative;
+	width: 70%;
+	margin-top: 2%;
+}
+
+
+
+div.basic_info{
+	position: relative;
+	float: left;
+	overflow: auto;
+	position: relative;
+}
+
+div.text1 {
+	float: left;
+	width: 40%;
+	position: relative;
+	margin-left: 10%;
+}
+
+div.text1 h3 {
+	text-indent: 23%;
+}
+
+div.pic {
+	overflow: auto;
+	float: right;
+	margin-right: 20%;
+	position: relative;
+	width: 20%;
+}
+
+div.edu_hist, div.tech_skills, div.other_skills, div.work_exp {
+	position: relative;
+	margin-left: 10%;
+}
+	
+h3 {
+	color: brown;
+	position: relative;
+	left: 20%;
+  	font-family:cursive;
+  	text-transform: uppercase;
+  	text-shadow: 0.1em 0.1em 0.5em brown;
+}
+
+div.content li {
+	line-height: 2em;
+	font-family: serif;
+	color: black;
+	text-shadow: 0.1em 0.1em 0.05em lightpink;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.1em;
+	text-shadow: 0em 0em 0.1em lightpink;
+}
+
+div.sidebar li a{
+	line-height: 2em;
+	font-size: 1.2em;
+	font-family: cursive;
+	color: black;
+	text-shadow: 0.1em 0.1em 0.01em white;
+}
+
+div.sidebar li a:hover {
+	line-height: 2.1em;
+	font-size: 1.3em;
+	background-color: whitesmoke;
+	color: brown;
+}

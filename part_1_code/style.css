@@ -1,0 +1,156 @@
+body {
+  background-color: #d5c1a1;
+}
+pre{
+  padding: 20pt;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
+  font-size:11pt;
+}
+
+h1{
+    letter-spacing: 1pt;
+    text-align:center;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 35pt;
+    text-shadow: 2pt 2pt 1pt;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    text-align:center;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+h3,h4{
+  text-align:center;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 15pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  
+}
+hr{
+  margin-top:5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+p{
+  font-family: serif, "Times New Roman", Times;
+  font-size: 12pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: auto;
+}
+tbody{
+  margin-left: auto;
+  margin:right: auto;
+
+}
+p.new{
+  font-family: serif, "Times New Roman", Times;
+  font-size: 12pt;
+  vertical-align: top;
+  text-align: justify;
+
+
+}
+ul {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.verse {
+  text-align: center;
+  font-style: italic;
+}
+a:link {
+    color: #000066;
+}
+
+a:visited {
+    color: #3333ff;
+}
+
+*a:hover {
+    color: #0080ff;
+}
+img, fig {
+	display: block;
+	margin: auto;
+	text-align: center;
+	max-height: 40%;
+	max-width: 20%;
+	box-shadow: 5pt 5pt 3pt #130d06;
+
+}
+.caption{
+	text-align: center;
+	font-style: italic;
+	margin-top: 5pt;
+	font-size: 10pt;
+
+}
+img.floatLeft {
+	float:left;
+	margin-right: 3pt;
+	height: 40pt;
+	width: 40pt;
+	box-shadow: 0pt 0pt;
+}
+
+.nf-center, .nf-center-c1{
+	padding-top: 3pt;
+	text-align: center;
+
+
+}
+table {
+	display: table;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align:left;
+}
+table.table1{
+	vertical-align: top;
+	margin-left: 35%;
+	
+}
+table.table0{
+	vertical-align: top;
+	margin-left: 42%;
+}
+.chapter{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.group,.c014 {
+	text-align: right;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.center, .half-title, .subt, .figcenter, .tnotes, blockquote {
+	text-align: center;
+}
+
+
+}
+ .linegroup, .lg-container-b{
+	 margin-right: 24%;
+}
+
+
+.pageno{
+	font-size: 0pt;
+
+
+}
+
+.transnote {
+	margin-left: 10%;
+}
+
+
