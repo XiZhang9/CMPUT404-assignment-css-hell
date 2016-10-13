@@ -23,5 +23,9 @@ Code contains contributor from: Xi Zhang, Han Wang
 
 Code is licensed under the Apache 2.0 license.
 
+Modifications on the Project Gutenberg HTML files
+=================================================================
+
+Removed internal style and add link to style.css
 
 
